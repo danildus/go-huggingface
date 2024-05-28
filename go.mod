@@ -1,4 +1,4 @@
-module github.com/hupe1980/go-huggingface
+module github.com/danildus/go-huggingface
 
 go 1.20
 
