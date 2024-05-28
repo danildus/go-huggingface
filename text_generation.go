@@ -39,6 +39,8 @@ type TextGenerationParameters struct {
 
 	// (Default: 1). Integer. The number of proposition you want to be returned.
 	NumReturnSequences *int `json:"num_return_sequences,omitempty"`
+
+	StopSequences []string `json:"stop_sequences,omitempty"`
 }
 
 type TextGenerationRequest struct {
